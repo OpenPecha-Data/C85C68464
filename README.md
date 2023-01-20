@@ -1,12 +1,12 @@
-# C85C68464
-# Pedurma Tengyur texts not found in the Derge edition
 
-This collection contains all of the texts in the Pedurma edition of the Tengyur that aren't found in the Derge edition.
+# C85C68464: Tengyur texts not in Derge edition
+
+This collection contains all of the texts included in the Pedurma edition of the Tengyur that aren't found in the Derge edition.
 
 ## Table of contents
 <p align="center">
-  <a href="#collection-summary">Collection summary</a> •
-  <a href="#file-structure">File structure</a> •
+  <a href="#collection-content">Collection content</a> •
+  <a href="#views">Views</a> •
   <a href="#data-preparation">Data preparation</a> •
   <a href="#quality-assurance">Quality assurance</a> •
   <a href="#questions-about-this-collection">Questions?</a> •
@@ -14,32 +14,57 @@ This collection contains all of the texts in the Pedurma edition of the Tengyur 
   <a href="#terms-of-use">Terms of use</a>
 </p>
 
-## Collection summary
-- **456** texts 
-- Catalog: [PlainBase version](https://github.com/OpenPecha-Data/C85C68464/blob/main/Catalog_PlainBase.csv), [HFML version](https://github.com/OpenPecha-Data/C85C68464/blob/main/Catalog_HFML.csv)
-- Source: [BDRC](https://library.bdrc.io) and ...
-- Serializer: HFML, PlainBase
+## Collection content
+- **456** texts presented in two views:
+  - Without annotation
+  - With annotations that reference the source image files
+- Two folders containing the files
+  - [PlainBase](https://github.com/OpenPecha-Data/C85C68464/tree/main/PlainBase) contains plain `.txt` files without annotations
+  - [HFML](https://github.com/OpenPecha-Data/C85C68464/tree/main/HFML) contains `.txt` files with annotations that reference the source image files
+- Two catalogs of the included texts
+  - A [Catalog_PlainBase.csv](https://github.com/OpenPecha-Data/C85C68464/tree/main/PlainBase) lists the PlainBase versions of the texts
+  - A [Catalog_HFML.csv](https://github.com/OpenPecha-Data/C85C68464/blob/main/Catalog_HFML.csv) lists the HFML versions of the texts
+- A `.yml` file that defines the structure of the repo.
 
-Catalog key
+## Views
 
-| File name       | Title                      | OP ID         | BDRC ID           | Volume Number                    |
-| --------------- | -------------------------- | ------------- | ----------------- | -------------------------------- |
-| Same as BDRC ID unless it doesn't have one. | Title of text in Tibetan | Open Pecha ID | ID in BDRC system | Volume number in Pedurma Tengyur |                             
+This collection contains two views of the same texts:
+- PlainBase view, which is the texts as plain `.txt` files.
+- HFML view, which adds annotations using the Human Friendly Markup Language.
 
-## File structure
+### PlainBase view
 
-This collection presents each text in two plain text files. The version in the HFML (human-friendly markup language) folder includes anotations for BDRC scans and this.
+This view presents the texts in raw `.txt` files without annotations.
 
-Example:
-〔142〕 I1PD958920142.jpg
+### HFML view
 
-The versions in the PlainBase folder contain the raw text without these annotations.
+This view presents the texts in raw `.txt` files with annotations that reference the source image files.
 
-What is the purpose of the YAML file?
+**Annotation format**:
+[image number] bdrc_image_file_name
+
+**Example**:
+〔587〕 I1PD958870587.jpg
+  
+## Catalog reference
+
+Both the PlainBase and HFML catalogs follow this format:
+
+| Field    | Description    | Example    |
+| --- | --- | --- |
+| File name    | Same as BDRC ID unless it doesn't have one.    | MW1PD95844_2598    |
+| Title    | Title in Tibetan.     | དབང་གི་དོན་ངེས་པར་འབྱེད་པ།    |
+| OP ID    | The text's OpenPecha ID.     | I00388DFB    |
+| BDRC ID    | The text's BDRC ID.     | MW1PD95844_2598    |
+| Volume Number    | The volume of the Pedurma Tengyur that the text is in.    | 43    |
 
 ## Data preparation
 
+
+
 ## Quality assurance
+
+
 
 ## Questions about this collection?
 
@@ -51,11 +76,9 @@ What is the purpose of the YAML file?
 
 <!-- Delete organizations that are not part of this collection -->
 
-Thanks to the following organizations for providing data for this collection:
+Thanks to the following organizations for providing the data used in this collection:
 
 ![BDRC logo](https://user-images.githubusercontent.com/51434640/194739598-8a630a40-b83e-46cd-9f52-3f746db9864f.png)
-
-![Lotsawa House logo](https://user-images.githubusercontent.com/51434640/213625878-94b44c11-87f6-4fab-82d7-2a77d9e32547.png)
 
 ## Terms of use
 
