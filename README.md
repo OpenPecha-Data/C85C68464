@@ -24,13 +24,13 @@ This collection contains all of the texts included in the Pedurma edition of the
 - Two catalogs of the texts:
   - [Catalog_PlainBase.csv](https://github.com/OpenPecha-Data/C85C68464/tree/main/PlainBase) lists the PlainBase versions of the texts
   - [Catalog_HFML.csv](https://github.com/OpenPecha-Data/C85C68464/blob/main/Catalog_HFML.csv) lists the HFML versions of the texts
-- A `.yml` file that defines the structure of the repo.
+- A `.yml` file that defines the structure of the repo
 
 ## Views
 
 This collection contains two views of the texts:
-- PlainBase view, which is the texts as plain `.txt` files.
-- HFML view, which adds annotations using the Human Friendly Markup Language.
+- PlainBase view, which is the texts as plain `.txt` files
+- HFML view, which adds annotations using the Human Friendly Markup Language
 
 ### PlainBase view
 
